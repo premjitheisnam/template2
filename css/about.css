@@ -17,7 +17,8 @@ body {
   font-size: 2rem;
 }
 .navitem {
-  margin-left: 50px;
+  margin-left: 40px;
+  margin-right: auto;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -140,6 +141,9 @@ body {
     vertical-align: auto;
     width: 100%;
   }
+  .authorimage {
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -152,6 +156,9 @@ body {
     margin-left: 0px;
     vertical-align: auto;
     width: 100%;
+  }
+  .authorimage {
+    margin-left: 0px;
   }
 }
 
@@ -171,4 +178,10 @@ body {
 }
 .footertext2 {
   font-size: medium;
+}
+.thumbnailss {
+  margin-top: 20px;
+}
+.authorimage {
+  margin-left: 110px;
 }
